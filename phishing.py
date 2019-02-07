@@ -2,8 +2,8 @@
 # Authors: Kyle Nielsen  TODO add your name if you edit this file
 # For: CIS 433 at UOregon
 # Date of creation: February 6, 2019
-# Language: Python 3
 # Last update: February 6, 2019  TODO keep updated
+# Language: Python 3
 # Credit:  TODO credit outside sources if applicable
 # Program state: Basic check for name-email combo. Only 1 combo in database
 #########
