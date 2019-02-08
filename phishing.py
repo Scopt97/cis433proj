@@ -1,5 +1,5 @@
 #########
-# Authors: Kyle Nielsen  TODO add your name if you edit this file
+# Authors: Kyle Nielsen John DrakeTODO add your name if you edit this file
 # For: CIS 433 at UOregon
 # Date of creation: February 6, 2019
 # Last update: February 6, 2019  TODO keep updated
