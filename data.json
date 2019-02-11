@@ -1,3 +1,12 @@
 {
-    "Kyle Nielsen": ["kylen@uoregon.edu"]
+    "Kyle Nielsen": ["kylen@uoregon.edu"],
+    "Microsoft": ["msa@communication.microsoft.com"],
+    "Azure DevOps": ["azure_devops@email2.microsoft.com"],
+    "Microsoft account team": ["account-security-noreply@account.microsoft.com"],
+    "Visual Studio": ["visualstudio@e-mail.microsoft.com"],
+    "Visual Studio Team Services": ["VisualStudioTeamServices@microsoft.com"],
+    "UO Office of Admissions": ["uoadmit@uoregon.edu"],
+    "University of oregon Admissions": ["uoadmit@uoregon.edu"],
+    "University of Oregon Financial Aid": ["financialaid@uoregon.edu"],
+    "Office of Admissions": ["osuadmit@oregonstate.edu"]
 }
