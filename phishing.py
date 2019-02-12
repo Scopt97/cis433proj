@@ -18,6 +18,10 @@ import json
 app = Flask(__name__)
 
 
+with open("/home/Scopt97/cis433proj/data.json", "r") as data_file:
+    data = json.load(data_file)  # load the file with name-email combos
+
+
 @app.route("/api/check-pair")
 def check():
     if not (request.args.get("name") and request.args.get("email")):
@@ -25,17 +29,15 @@ def check():
 
     name = request.args.get("name")
     email = request.args.get("email")
-    
+
     if name not in data:
         return "unknown"  # return unknown if name not in database
-    
+
     if email in data[name]:
         return "valid"  # return valid if the pair matches
-        
+
     return "invalid"  # otherwise, the pair didn't match. Invalid
 
 
 if __name__ == "__main__":
-    with open("data.json", "r") as data_file:
-        data = json.load(data_file)  # load the file with name-email combos
     app.run(debug=True, port=5001, host="0.0.0.0")
