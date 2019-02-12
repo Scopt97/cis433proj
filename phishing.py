@@ -18,7 +18,7 @@ import json
 app = Flask(__name__)
 
 
-with open("/home/Scopt97/cis433proj/data.json", "r") as data_file:
+with open("data.json", "r") as data_file:
     data = json.load(data_file)  # load the file with name-email combos
 
 
