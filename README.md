@@ -10,7 +10,7 @@ Access with `http://scopt97.pythonanywhere.com/[url]` by default.
 Run with `python3 phishing.py` to run on your local machine.
 Then access with `127.0.0.1:5001/[url]`
 
-URLs:
+URLs:  
 `api/check-pair`: Check if a name-email pair is in the database.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns:  
@@ -26,6 +26,7 @@ URLs:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scopt97.pythonanywhere.com/api/check-pair?name=Bill Wurst&email=billw@example.com`
 
+
 `api/add-pair`: Add a name-email pair to the database.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns:  
@@ -38,6 +39,7 @@ URLs:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scopt97.pythonanywhere.com/api/add-pair?name=Bill Wurst&email=billw@example.com`
+
 
 `api/del-pair`: Remove a name-email pair from the database.
 
@@ -52,6 +54,7 @@ URLs:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scopt97.pythonanywhere.com/api/del-pair?name=Bill Wurst&email=billw@example.com`
 
+
 `api/check-phish`: Check if an email address is in a list of confirmed phishers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns:  
@@ -65,6 +68,7 @@ URLs:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scopt97.pythonanywhere.com/api/check-phish?email=billw@example.com`
 
+
 `api/add-phish`: Add an email address to the list of confirmed phishers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns:  
@@ -76,6 +80,7 @@ URLs:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`scopt97.pythonanywhere.com/api/add-phish?email=billw@example.com`
+
 
 `api/del-phish`: Remove an email address from the list of phishers.
 
